@@ -1,0 +1,16 @@
+{
+
+    "compilerOptions": {
+        //require strick types (null-save)
+        "strict": true,
+
+        "target": "ESNext", //tell TS to use imports/exports instead of require
+
+        "module": "NodeNext", //require ESModule Syntax
+
+        "outDir": "../../dist-electron",//where to put generated JS
+
+        //ignore errors from dependencies
+        "skipLibCheck": true
+    }
+}
